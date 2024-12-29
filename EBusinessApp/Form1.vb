@@ -68,6 +68,6 @@ Public Class Product
     Public Property Stock As Integer
 
     Public Overrides Function ToString() As String
-        Return $"{Name} ({Category}) - ${Price:F2} x {Stock}"
+        Return $"{Name} ({Category}) - Rp{Price:F2} x {Stock}"
     End Function
 End Class
